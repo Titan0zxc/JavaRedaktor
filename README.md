@@ -39,7 +39,7 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git/
+    git clone https://github.com/Titan0zxc/JavaRedaktor.git
     ```
 
 2.  **Настройте JavaFX:**
