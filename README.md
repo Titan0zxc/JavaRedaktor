@@ -16,15 +16,15 @@
 
 | Скриншот рабочего окна |
 | :---: |
-| </> |
+| <img src="screenshots/Рабочее окно.png" width="400"/> |
 
 | Скриншот прямоугольника | Скриншот круга |
 | :---: | :---: |
-| </> | </> |
+| <img src="screenshots/Прямоугольник.png" width="400"/> | <img src="screenshots/Круг.png" width="400"/> |
 
 | Скриншот элипса |
 | :---: |
-| </> |
+| <img src="screenshots/Элипс.png" width="400"/> |
 
 </details>
 
