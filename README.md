@@ -1,9 +1,9 @@
 # Лабораторная работа 1 - Графический редактор фигур
 
 > **Dark Edition** | Графический редактор фигур  
-![Java](Screenshots/icons8-логотип-java-coffee-cup-64.png)
-![JavaScript](Screenshots/icons8-javascript-64.png)
-![SceneBuilder](Screenshots/icons8-рабочий-64.png)
+![Java](screenshots/icons8-логотип-java-coffee-cup-64.png)
+![JavaScript](screenshots/icons8-javascript-64.png)
+![SceneBuilder](screenshots/icons8-рабочий-64.png)
 
 
 Описание: Программа представляет собой систему автоматизированного проектирования для отображения различных геометрических фигур. Реализована иерархия классов фигур с использованием принципов объектно-ориентированного программирования. Проект демонстрирует работу с абстрактными классами, наследованием и полиморфизмом в Java.
