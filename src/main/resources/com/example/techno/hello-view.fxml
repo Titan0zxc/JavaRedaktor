@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.layout.HBox?>
+
+<!-- ГЛАВНЫЙ КОНТЕЙНЕР - VBox (из лабы п.1) -->
+<VBox alignment="TOP_CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.techno.HelloController">
+    <!-- ОТСТУПЫ ВОКРУГ СОДЕРЖИМОГО -->
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <!-- МЕТКА ДЛЯ ВЫВОДА ИНФОРМАЦИИ (из лабы - вывод названия фигуры п.5.5) -->
+    <Label fx:id="statusLabel" text="Выберите фигуру для отображения"/>
+
+    <!-- ГОРИЗОНТАЛЬНАЯ ПАНЕЛЬ ДЛЯ ЭЛЕМЕНТОВ УПРАВЛЕНИЯ -->
+    <HBox spacing="10" alignment="CENTER">
+        <!-- ВЫБОР ЦВЕТА (из лабы - изменение цвета) -->
+        <ColorPicker fx:id="colorPicker"/>
+
+        <!-- КНОПКИ ДЛЯ РИСОВАНИЯ ФИГУР (из лабы п.4) -->
+        <Button text="Прямоугольник" onAction="#drawRectangle"/>
+        <Button text="Круг" onAction="#drawCircle"/>
+        <Button text="Эллипс" onAction="#drawEllipse"/>
+        <Button text="Очистить" onAction="#clearCanvas"/>
+    </HBox>
+
+    <!-- ХОЛСТ ДЛЯ РИСОВАНИЯ (из лабы - Canvas) -->
+    <Canvas fx:id="canvas" width="400" height="300"/>
+</VBox>
